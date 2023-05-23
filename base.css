@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(199, 243, 243);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    max-height: 250px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-image:url(https://png.pngtree.com/png-vector/20220723/ourmid/pngtree-abstract-blue-wavy-business-wave-border-frame-banner-for-header-and-png-image_6036332.png);
+    background-color: rgb(167, 238, 238);
+    min-height: 150px;
+}
+form {
+    display: inline-block;
+    width: 300px;
+}
+
+form label {
+    display:block;
+    font-size: 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 0px;
+    padding: 1px 1px;
+    width: 100%;
+}
